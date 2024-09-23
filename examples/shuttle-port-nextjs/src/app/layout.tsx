@@ -22,7 +22,7 @@ import {
   SafePalExtensionProvider,
   imTokenExtensionProvider,
   MathExtensionProvider,
-  CypherWalletExtensionProvider
+  CypherWalletExtensionProvider,
 } from "@talis-art/shuttle-react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
@@ -118,7 +118,16 @@ const extensionProviders = [
     networks: [OSMOSIS_MAINNET, INJECTIVE_MAINNET],
   }),
   new CypherWalletExtensionProvider({
-    networks: [OSMOSIS_MAINNET, MARS_MAINNET, TERRA_MAINNET, INJECTIVE_MAINNET, NEUTRON_MAINNET, TERRA_TESTNET, INJECTIVE_TESTNET, NEUTRON_TESTNET],
+    networks: [
+      OSMOSIS_MAINNET,
+      MARS_MAINNET,
+      TERRA_MAINNET,
+      INJECTIVE_MAINNET,
+      NEUTRON_MAINNET,
+      TERRA_TESTNET,
+      INJECTIVE_TESTNET,
+      NEUTRON_TESTNET,
+    ],
   }),
 ];
 

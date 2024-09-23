@@ -12,7 +12,7 @@ export function ArbitrarySign() {
   const [data, setData] = useState("");
 
   function encodeBase64(obj: object) {
-    return Buffer.from(JSON.stringify(obj)).toString('base64');
+    return Buffer.from(JSON.stringify(obj)).toString("base64");
   }
 
   const onSign = async () => {
@@ -27,7 +27,7 @@ export function ArbitrarySign() {
           },
           class_id: "injective",
         },
-      }
+      };
       const finalMsg = {
         sender: wallet.account.address,
         contract: "inj1l24nusl0e9mrczkmaf2x3qrnk3rwfgpgg7w5yh",
@@ -63,7 +63,7 @@ export function ArbitrarySign() {
       const simulateFee = await simulate({
         messages: [new MsgExecuteContract({ ...finalMsg })],
         wallet: wallet,
-      })
+      });
       console.log("simulate result", simulateFee);
       return;
       await broadcast({
@@ -79,13 +79,15 @@ export function ArbitrarySign() {
               },
             },
             sender: wallet.account.address,
-            funds: [{
-              denom: "inj",
-              amount: "1000000000000000000",
-            }],
-          })
-        ]
-      })
+            funds: [
+              {
+                denom: "inj",
+                amount: "1000000000000000000",
+              },
+            ],
+          }),
+        ],
+      });
     } catch (error) {
       console.error("broadcast error", error);
     }
