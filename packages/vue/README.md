@@ -16,7 +16,7 @@ You can check out the [documentation](https://shuttle.delphilabs.io/) for more i
 ### Install
 
 ```bash
-npm install @delphi-labs/shuttle-vue
+npm install @talis-art/shuttle-vue
 ```
 
 ### Setup
@@ -25,7 +25,7 @@ npm install @delphi-labs/shuttle-vue
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
-import { createShuttle } from "@delphi-labs/shuttle-vue";
+import { createShuttle } from "@talis-art/shuttle-vue";
 
 import App from "./App.vue";
 
@@ -56,7 +56,7 @@ app.mount("#app");
 ```vue
 <script lang="ts" setup>
 import { ref } from "vue";
-import { WalletConnection, isAndroid, isIOS, isMobile, useShuttle } from "@delphi-labs/shuttle-vue";
+import { WalletConnection, isAndroid, isIOS, isMobile, useShuttle } from "@talis-art/shuttle-vue";
 import QrcodeVue from "qrcode.vue";
 
 import { useShuttlePortStore } from "@/stores/shuttle-port";
@@ -208,9 +208,9 @@ pnpm run build
 pnpm publish
 ```
 
-[npm-url]: https://www.npmjs.com/package/@delphi-labs/shuttle-vue
-[npm-image]: https://img.shields.io/npm/v/@delphi-labs/shuttle-vue
-[npm-typescript]: https://img.shields.io/npm/types/@delphi-labs/shuttle-vue
+[npm-url]: https://www.npmjs.com/package/@talis-art/shuttle-vue
+[npm-image]: https://img.shields.io/npm/v/@talis-art/shuttle-vue
+[npm-typescript]: https://img.shields.io/npm/types/@talis-art/shuttle-vue
 [github-license]: https://img.shields.io/github/license/delphi-labs/shuttle
 [github-license-url]: https://github.com/delphi-labs/shuttle/blob/main/LICENSE
 [github-build]: https://github.com/delphi-labs/shuttle/actions/workflows/publish.yml/badge.svg

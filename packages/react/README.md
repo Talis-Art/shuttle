@@ -16,13 +16,13 @@ You can check out the [documentation](https://shuttle.delphilabs.io/) for more i
 ### Install
 
 ```bash
-npm install @delphi-labs/shuttle-react
+npm install @talis-art/shuttle-react
 ```
 
 ### Setup
 
 ```tsx
-import { ShuttleProvider } from "@delphi-labs/shuttle-react";
+import { ShuttleProvider } from "@talis-art/shuttle-react";
 
 const WC_PROJECT_ID = "...";
 
@@ -55,7 +55,7 @@ function App() {
 ```tsx
 import { useState } from "react";
 import QRCode from "react-qr-code";
-import { useShuttle, isAndroid, isIOS, isMobile } from "@delphi-labs/shuttle-react";
+import { useShuttle, isAndroid, isIOS, isMobile } from "@talis-art/shuttle-react";
 
 const currentNetworkId = "mars-1";
 
@@ -173,9 +173,9 @@ pnpm run build
 pnpm publish
 ```
 
-[npm-url]: https://www.npmjs.com/package/@delphi-labs/shuttle-react
-[npm-image]: https://img.shields.io/npm/v/@delphi-labs/shuttle-react
-[npm-typescript]: https://img.shields.io/npm/types/@delphi-labs/shuttle-react
+[npm-url]: https://www.npmjs.com/package/@talis-art/shuttle-react
+[npm-image]: https://img.shields.io/npm/v/@talis-art/shuttle-react
+[npm-typescript]: https://img.shields.io/npm/types/@talis-art/shuttle-react
 [github-license]: https://img.shields.io/github/license/delphi-labs/shuttle
 [github-license-url]: https://github.com/delphi-labs/shuttle/blob/main/LICENSE
 [github-build]: https://github.com/delphi-labs/shuttle/actions/workflows/publish.yml/badge.svg

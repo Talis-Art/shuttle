@@ -10,7 +10,7 @@ import {
   WalletConnection,
   WalletExtensionProvider,
   WalletMobileProvider,
-} from "@delphi-labs/shuttle";
+} from "@talis-art/shuttle";
 
 import { ShuttleStore, useShuttleStore } from "./store";
 

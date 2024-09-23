@@ -1,6 +1,6 @@
 import { Ref, computed } from "vue";
 import { useQuery } from "@tanstack/vue-query";
-import { SimulateResult, TransactionMsg, useShuttle } from "@delphi-labs/shuttle-vue";
+import { SimulateResult, TransactionMsg, useShuttle } from "@talis-art/shuttle-vue";
 
 import useWallet from "./useWallet";
 

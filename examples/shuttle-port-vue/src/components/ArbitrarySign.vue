@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { Buffer } from "buffer";
 import { ref } from "vue";
-import { useShuttle } from "@delphi-labs/shuttle-vue";
+import { useShuttle } from "@talis-art/shuttle-vue";
 
 import useWallet from "@/composables/useWallet";
 

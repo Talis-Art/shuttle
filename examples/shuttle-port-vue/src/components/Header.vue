@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-import { WalletConnection, isAndroid, isIOS, isMobile, useShuttle } from "@delphi-labs/shuttle-vue";
+import { WalletConnection, isAndroid, isIOS, isMobile, useShuttle } from "@talis-art/shuttle-vue";
 import QrcodeVue from "qrcode.vue";
 
 import { useShuttlePortStore } from "@/stores/shuttle-port";

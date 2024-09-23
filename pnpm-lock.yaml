@@ -35,7 +35,7 @@ importers:
       '@dao-dao/cosmiframe':
         specifier: ^0.1.0
         version: 0.1.0(@cosmjs/amino@0.32.4)(@cosmjs/proto-signing@0.32.4)
-      '@delphi-labs/shuttle-react':
+      '@talis-art/shuttle-react':
         specifier: workspace:*
         version: link:../../packages/react
       '@tanstack/react-query':
@@ -90,7 +90,7 @@ importers:
       '@cosmjs/cosmwasm-stargate':
         specifier: ^0.32.4
         version: 0.32.4
-      '@delphi-labs/shuttle-vue':
+      '@talis-art/shuttle-vue':
         specifier: workspace:*
         version: link:../../packages/vue
       '@tanstack/vue-query':
@@ -287,7 +287,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@delphi-labs/shuttle':
+      '@talis-art/shuttle':
         specifier: workspace:*
         version: link:../core
       tslib:
@@ -369,7 +369,7 @@ importers:
 
   packages/vue:
     dependencies:
-      '@delphi-labs/shuttle':
+      '@talis-art/shuttle':
         specifier: workspace:*
         version: link:../core
       pinia:

@@ -21,7 +21,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ["@delphi-labs/shuttle", "@delphi-labs/shuttle-vue"],
+    include: ["@delphi-labs/shuttle", "@talis-art/shuttle-vue"],
     esbuildOptions: {
       plugins: [
         // Solves:

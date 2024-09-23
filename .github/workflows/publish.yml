@@ -14,8 +14,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22.x
-          registry-url: https://registry.npmjs.org/
+          node-version: '20'  # Updated to Node.js version 20
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: '@talis-art'  # Replace with your GitHub username or organization
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -24,9 +25,9 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm --filter "@delphi-labs/*" build
+        run: pnpm --filter "@talis-art/*" build
 
       - name: Publish
-        run: pnpm publish --filter "@delphi-labs/*" --no-git-checks
+        run: pnpm publish --filter "@talis-art/*" --no-git-checks
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using GitHub token for authentication

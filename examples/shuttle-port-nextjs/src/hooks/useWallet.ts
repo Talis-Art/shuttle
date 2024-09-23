@@ -1,4 +1,4 @@
-import { useShuttle } from "@delphi-labs/shuttle-react";
+import { useShuttle } from "@talis-art/shuttle-react";
 
 import { useShuttlePortStore } from "@/config/store";
 

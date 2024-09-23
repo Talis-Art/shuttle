@@ -13,7 +13,7 @@ import {
   BroadcastResult,
   SigningResult,
   NetworkCurrency,
-} from "@delphi-labs/shuttle";
+} from "@talis-art/shuttle";
 
 import { ShuttleStore, useShuttleStore } from "./store";
 

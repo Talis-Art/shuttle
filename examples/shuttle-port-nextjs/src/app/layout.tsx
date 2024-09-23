@@ -23,7 +23,7 @@ import {
   imTokenExtensionProvider,
   MathExtensionProvider,
   CypherWalletExtensionProvider
-} from "@delphi-labs/shuttle-react";
+} from "@talis-art/shuttle-react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import Header from "@/components/Header";
@@ -157,7 +157,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ShuttleProvider
           walletConnectProjectId={WC_PROJECT_ID}
-          mobileProviders={mobileProviders}
+          mobileProviders={[]}
           extensionProviders={extensionProviders}
           persistent
         >

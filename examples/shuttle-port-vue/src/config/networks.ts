@@ -1,4 +1,4 @@
-import { fromInjectiveEthereumChainToCosmosChain, type Network } from "@delphi-labs/shuttle-vue";
+import { fromInjectiveEthereumChainToCosmosChain, type Network } from "@talis-art/shuttle-vue";
 import { bech32 } from "bech32";
 import { Address } from "ethereumjs-util";
 

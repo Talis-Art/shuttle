@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import QRCode from "react-qr-code";
-import { useShuttle, isAndroid, isIOS, isMobile } from "@delphi-labs/shuttle-react";
+import { useShuttle, isAndroid, isIOS, isMobile } from "@talis-art/shuttle-react";
 
 import { networks } from "@/config/networks";
 import { useShuttlePortStore } from "@/config/store";

@@ -1,4 +1,4 @@
-import { WalletConnection } from "@delphi-labs/shuttle";
+import { WalletConnection } from "@talis-art/shuttle";
 import { defineStore } from "pinia";
 
 export type ShuttleStoreDefinition = {

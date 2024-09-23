@@ -23,8 +23,8 @@ npm install @delphi-labs/shuttle
 
 This is the core package of Shuttle, contains all the raw logic for connecting to wallets. If you want to use Shuttle in your dApp, you should use one of the framework-specific packages:
 
-- @delphi-labs/shuttle-react
-- @delphi-labs/shuttle-vue
+- @talis-art/shuttle-react
+- @talis-art/shuttle-vue
 
 ## How to develop
 

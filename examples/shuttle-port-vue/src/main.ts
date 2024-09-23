@@ -18,7 +18,7 @@ import {
   MathExtensionProvider,
   CypherWalletExtensionProvider,
   createShuttle,
-} from "@delphi-labs/shuttle-vue";
+} from "@talis-art/shuttle-vue";
 import { VueQueryPlugin } from "@tanstack/vue-query";
 import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";

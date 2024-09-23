@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@cosmjs/cosmwasm-stargate": "^0.32.4",
-    "@delphi-labs/shuttle-vue": "workspace:*",
+    "@talis-art/shuttle-vue": "workspace:*",
     "@tanstack/vue-query": "^4.29.20",
     "bech32": "^2.0.0",
     "bignumber.js": "^9.1.1",

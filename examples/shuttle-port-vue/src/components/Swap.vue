@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { computed, ref, watchEffect } from "vue";
-import { useShuttle } from "@delphi-labs/shuttle-vue";
+import { useShuttle } from "@talis-art/shuttle-vue";
 
 import { useShuttlePortStore } from "@/stores/shuttle-port";
 import { POOLS } from "@/config/pools";

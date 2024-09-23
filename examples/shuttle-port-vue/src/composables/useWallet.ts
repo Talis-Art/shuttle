@@ -1,5 +1,5 @@
 import { computed } from "vue";
-import { useShuttle } from "@delphi-labs/shuttle-vue";
+import { useShuttle } from "@talis-art/shuttle-vue";
 
 import { useShuttlePortStore } from "@/stores/shuttle-port";
 
